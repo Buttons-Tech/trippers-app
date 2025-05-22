@@ -27,7 +27,7 @@ const Userprofile = async () => {
 
         const data = await fetch("https://api.escuelajs.co/api/v1/users")
     const users = await data.json()
-    console.log(users)
+    // console.log(users)
   return (
     <>
             <div className="w-[1280px] h-[1797px] bg-[#FFFFFF] relative">

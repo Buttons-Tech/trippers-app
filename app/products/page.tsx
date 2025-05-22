@@ -4,7 +4,7 @@ const page = async () => {
 
     const data = await fetch("https://api.escuelajs.co/api/v1/products")
     const products = await data.json()
-    console.log(products)
+    // console.log(products)
     // const {images, title, description, price} = products[0]
     // console.log(images, title, description, price)
   return (

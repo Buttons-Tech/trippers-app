@@ -9,6 +9,7 @@ import Places from "./components/Places";
 import Hosting from "./components/Hosting";
 
 import Testimonial from "./components/Testimonial";
+import AboutUs from "./components/AboutUs";
 
 
 
@@ -29,6 +30,7 @@ export default async function Home() {
     <Hosting />
     
     <Testimonial />
+    <AboutUs />
     
   
     
