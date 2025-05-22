@@ -13,8 +13,9 @@ import Image from 'next/image'
 import Link  from 'next/link'
 import axios from 'axios'
 // import { SessionProvider } from 'next-auth/react';
-import { useNavigate } from 'react-router-dom'
-export const context = React.createContext();
+
+
+
 
 
 function SignUp() {
@@ -25,11 +26,11 @@ function SignUp() {
     //   const handleLoginError = (error) => {
     //     console.error('Login Error:', error);
     //   };
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
-    const [user, setUser] = useState(null);
-    const navigate = useNavigate();
+    // const [name, setName] = useState("");
+    // const [email, setEmail] = useState("");
+    // const [password, setPassword] = useState("");
+    // const [user, setUser] = useState(null);  
+  
 
 
     const handleSubmit = (e) => {
@@ -39,24 +40,23 @@ function SignUp() {
             email,
             password
         };
-        console.log(user);
+        // console.log(user);
         axios.post(process.env.API_KEY, user)
             .then(response => { console.log(response.data); })
 
             .catch(error => { console.log(error); });
         setUser(response.data);
-        navigate('/profile');
+       
 
 
     };
 
     return (
         <>
-            {/* <GoogleOAuthProvider clientId="736249188718-27cfhokg4mp4l8ahqnainom67vu6ha5o.apps.googleusercontent.com"> */}
-
-            <div>
+            
+            <div className=''>
                 <Image className="w-[1280px] h-[832px] relative" src={woman} alt="" />
-                <div className='w-[562px] h-[832px] bg-white absolute top-0 right-17'>
+                <div className='w-[562px] h-[832px] bg-white absolute top-[5rem] right-17 '>
                     <div className="flex relative">
                         <Image className="w-[181.07px] h-[72px] absolute top-5 left-20" src={tripper5} alt="" />
                         <Image className="w-[245.59px] absolute left-50 top-10 h-[46px]" src={tripper6} alt="" />
@@ -97,9 +97,7 @@ onError={handleLoginError}
                 </div>
             </div>
             {/* </GoogleOAuthProvider> */}
-            <div>
-
-            </div>
+            
         </>
     );
 }

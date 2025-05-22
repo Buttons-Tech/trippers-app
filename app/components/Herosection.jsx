@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const Herosection = () => {
+  
   return (
     <>
     <div className='flex'>
@@ -13,11 +14,11 @@ const Herosection = () => {
             <span className="font-bold text-orange-600 text-5xl">Platform</span><br />
             <span className="text-gray-500">Book hotels, flights, events and personalized <br />tours worldwide with exclusive rates and <br />automated commissions</span>
             <div className="flex mt-5 space-x-4">
-              <Link href='/SignUp'>
-            <button className="w-[272px] bg-[#FF3D00] h-[137px] text-white font-bold text-3xl rounded-[10px]">Get Started</button>
+              <Link href='/auth'>
+            <button className={`w-[272px] bg-[#FF3D00] text-white  rounded-[10px] text-3xl font-bold h-[137px] hover:cursor-pointer `}>Get Started</button>
             </Link>
             <Link href='/learnmore'>
-            <button className="w-[272px] bg-white border border-[#FF3D00] h-[137px] rounded-[10px] text-3xl text-[#FF3D00] font-bold">Learn More</button>
+            <button className={` bg-white border  border-[#FF3D00] text-[#FF3D00] w-[272px] rounded-[10px] text-3xl font-bold h-[137px] hover:cursor-pointer `}>Book Now</button>
             </Link>
             </div>
         </div>
