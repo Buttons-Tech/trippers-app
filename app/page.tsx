@@ -32,13 +32,13 @@ export default async function Home() {
     <Tourist />
     <Places />
     <Hosting />
-    {/* <Aboutus /> */}
+    
     <Testimonial />
-    {/* <Contactus /> */}
-    {/* <Signin /> */}
-    {/* <SignUp /> */}
-    {/* <Google /> */}
-    {/* <Userprofile /> */}
+    
+  
+    
+    
+    
 
     </div>
    </>
