@@ -45,7 +45,7 @@ const Aboutus = () => {
         <div className="w-full h-[503px] bg-[#D9D9D9] flex relative">
             <div className=" text-center mt-12">
                 <h1 className="font-bold text-4xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-50">Your <span className="font-bold text-5xl text-orange-400">Journey</span> Starts with <span className="font-bold text-5xl text-orange-400">Clarity!</span></h1>
-                <p className="font-bold text-3xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-40 text-orange-400 mt-7 ">Browse our FAQ section for essential travel <br />details, policies, and tips."</p>
+                <p className="font-bold text-3xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-40 text-orange-400 mt-7 ">Browse our FAQ section for essential travel <br />details, policies, and tips.</p>
             </div>
             <div className="justify-end">
                 <Image className="w-[261px] h-[433px] absolute right-30" src={man} alt=""/>

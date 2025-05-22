@@ -1,7 +1,7 @@
 import React from 'react'
 import { IoCartOutline } from "react-icons/io5";
 import { FaRegMoneyBill1 } from "react-icons/fa6";
-import Image from 'next/image';
+// import Image from 'next/image';
 
 
 

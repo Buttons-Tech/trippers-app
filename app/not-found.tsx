@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 export default function NotFound() {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-yellow-100 via-pink-100 to-blue-100">
@@ -12,13 +14,13 @@ export default function NotFound() {
             <p className="mt-2 text-lg text-gray-600">
                 Looks like this page went on a trip and got lost. <span className="inline-block animate-spin">🧳</span>
             </p>
-            <a
+            <Link
                 href="/"
                 className="mt-6 px-6 py-3 bg-blue-500 text-white rounded-full shadow-lg hover:bg-blue-600 transition-all duration-200 flex items-center gap-2"
             >
                 <span>Take me home</span>
                 <span role="img" aria-label="house">🏠</span>
-            </a>
+            </Link>
             <div className="mt-10 text-6xl animate-wiggle">
                 🏖️
             </div>

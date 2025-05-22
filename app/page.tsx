@@ -1,5 +1,5 @@
 
-import Image from "next/image";
+
 import Navbar from "./components/Navbar";
 import Hero from "./components/Herosection";
 import Categories from "./components/Categories";
@@ -10,17 +10,12 @@ import Hosting from "./components/Hosting";
 
 import Testimonial from "./components/Testimonial";
 
-import Signin from "./Components/SignIn";
-import SignUp from "./Components/SignUp";
-import Google from "./Components/Google";
 
 
 
 
 export default async function Home() {
-   const data = await fetch("https://api.escuelajs.co/api/v1/products")
-    const res = await data.json()
-    // console.log(res)
+   
 
   return (
    <>

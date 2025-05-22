@@ -1,15 +1,12 @@
+
 import React from 'react'
 
-const ProductPage = async({params}: {params: {productid: string; email: string}}) => {
-
-   const {productid} = params
-   
-
+const page = () => {
   return (
     <div>
-      {productid}
+      
     </div>
   )
 }
 
-export default ProductPage
+export default page

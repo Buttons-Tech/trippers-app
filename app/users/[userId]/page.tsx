@@ -1,4 +1,5 @@
 
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import React from 'react'
 import { MdEdit } from "react-icons/md";
@@ -31,7 +32,7 @@ const UserPage =  async({params}: {params: Promise<{userId: string}>}) => {
       <div className='flex '>
         <div>
 
-        <img src={user.avatar} className='w-[15rem]' alt={user.name} />
+        <Image src={user.avatar} className='w-[15rem]' alt={user.name} />
         <div className='flex gap-1'>
           <div className='w-[3rem] bg-green-400 h-[1rem] '></div>
           <div className='w-[3rem] bg-green-400 h-[1rem] '></div>
