@@ -7,13 +7,13 @@ import Catalog from "./components/Catalogue";
 import Tourist from "./components/Tourists";
 import Places from "./components/Places";
 import Hosting from "./components/Hosting";
-import Aboutus from "./Aboutus/Aboutus";
+
 import Testimonial from "./components/Testimonial";
-import Contactus from "./Contactus/Contactus";
+
 import Signin from "./Components/SignIn";
 import SignUp from "./Components/SignUp";
 import Google from "./Components/Google";
-import Userprofile from "./users/Userprofile";
+
 
 
 
@@ -32,9 +32,9 @@ export default async function Home() {
     <Tourist />
     <Places />
     <Hosting />
-    <Aboutus />
+    {/* <Aboutus /> */}
     <Testimonial />
-    <Contactus />
+    {/* <Contactus /> */}
     {/* <Signin /> */}
     {/* <SignUp /> */}
     {/* <Google /> */}
