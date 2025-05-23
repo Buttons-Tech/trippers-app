@@ -1,6 +1,6 @@
 
 
-// import Navbar from "./components/Navbar";
+
 import Hero from "./components/Herosection";
 import Categories from "./components/Categories";
 import Catalog from "./components/Catalogue";

@@ -63,8 +63,8 @@ const Navbar = () => {
           <Link href="/users" className='p-4 flex items-center rounded-full space-x-2 hover:cursor-pointer hover:bg-[#fcdea6] hover:text-[#454694] '>
             <FaUser />
           </Link>
-          <Link href="/booking">
-            <button className="w-[116px] h-[41px] bg-[#FFA500] font-bold text-white ml-30 rounded-full">
+          <Link href="/bookings">
+            <button className="w-[116px] h-[41px] bg-[#FF3D00] font-bold text-white ml-30 rounded-full hover: cursor-pointer ">
               Book now
             </button>
           </Link>
