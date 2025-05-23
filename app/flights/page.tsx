@@ -1,7 +1,7 @@
 // This is the main page for the flights listing
 // It will be used to display the list of flights
-import trippers1 from '../../public/img/tripperslogo1.png'
-import trippers2 from '../../public/img/tripperslogo2.png'
+// import trippers1 from '../../public/img/tripperslogo1.png'
+// import trippers2 from '../../public/img/tripperslogo2.png'
 import flight from '../../public/img/TakeOff.png'
 import tours from '../../public/img/Tour-bus.png'
 import hotels from '../../public/img/Hotel-Star.png'

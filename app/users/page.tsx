@@ -26,8 +26,8 @@ const Userprofile = async () => {
   //  const [opened, { open, close }] = useDisclosure(false);
   // const [modalOpened, setModalOpened] = useState(false);
 
-  const data = await fetch("https://api.escuelajs.co/api/v1/users");
-  const users = await data.json();
+  // const data = await fetch("https://api.escuelajs.co/api/v1/users");
+  // const users = await data.json();
   // console.log(users)
   return (
     <>
