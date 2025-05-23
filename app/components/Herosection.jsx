@@ -17,7 +17,7 @@ const Herosection = () => {
               <Link href='/auth'>
             <button className={`w-[272px] bg-[#FF3D00] text-white  rounded-[10px] text-3xl font-bold h-[137px] hover:cursor-pointer `}>Get Started</button>
             </Link>
-            <Link href='/learnmore'>
+            <Link href='/bookings'>
             <button className={` bg-white border  border-[#FF3D00] text-[#FF3D00] w-[272px] rounded-[10px] text-3xl font-bold h-[137px] hover:cursor-pointer `}>Book Now</button>
             </Link>
             </div>
